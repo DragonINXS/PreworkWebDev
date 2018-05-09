@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAVIGATION */
+nav {
+    background-color: #C12127;
+    color: rgba(255,255,255,0.8);
+    padding-top: 15px;
+    height: 35px; /*made up this value*/
+}
+
+nav a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+    vertical-align: middle;
+
+}
+
+.top-left {
+    float: left;
+}
+
+.top-links {
+    display: inline;
+    float: right;
+    padding: 0;
+    margin: 0 20px 0 0;
+ 
+}
+
+.top-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+/* HEADER */
+
+.header {
+    background: rgb(32, 101, 136);
+    color: white;
+    background-image: url(images/city-scape.svg); width: 100%;
+}
+
+.search-bar {
+   display: inline;
+   background-color: rgb(31, 82, 111);
+}
+
+.search-bar a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+}
+
+.content {
+    margin: auto;
+}
+
+.header-btn {
+    color: white;
+    background-color: rgb(240, 146, 51);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.header-img {
+    float: right;
+    width: 100%;
+    
+}
+
+.clearfix {
+    clear: both;
+}
+
+/* SECTION 1 */
+
+.section-1 {
+    color: white;
+    background-color: rgb(39, 53, 71);
+    padding: 5%;
+}
+
+.section-1-btn {
+    color: white;
+    background-color: rgb(203, 56, 55);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.section-1-content {
+    position: relative;
+    
+}
+
+/* .section {
+    width: 100%;
+    padding: 10%;
+    margin: auto;
+} */
+
+.section-1-img {
+    float: left;
+    padding-right: 50px;
+}
+
+/* SECTION 2 */
+.section-2 {
+    color: white;
+    background-image: url(images/forklift.svg);
+    background-size: cover; 
+    height: 500px;
+}
+
+.section-2-content {
+    position: relative;
+    padding: 5% 10%; /*Is this how I'm suppose to do this?*/
+}
+
+.section-2-btn {
+    color: white;
+    background-color:rgb(49, 68, 88);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+
+/* SECTION 3 */
+
+.section-3 {
+    background-color: white;
+    text-align: center;
+
+}
+
+.section-3-hr {
+    color: rgb(83, 88, 98);
+}
+
+a { /*sould it be every link?*/
+    color: rgb(208, 74, 73);
+}
+
+.section-3-content {
+    color: rgb(135, 145, 156);
+}
+
+.wrapper-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 70px;
+    padding: 10px 100px;
+}
+
+.one {
+    grid-column: 1;
+    grid-row: 1
+}
+
+.two {
+    grid-column: 2;
+    grid-row: 1
+}
+
+.three {
+    grid-column: 3;
+    grid-row: 1
+}
