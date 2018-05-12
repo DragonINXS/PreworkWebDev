@@ -12,78 +12,80 @@
 
 <!-- NAVIGATION -->
 <nav> 
+  
   <div class="top-left">
     <span class="heart">♥︎</span>
-    <span class="acronym">Neophobe Plebeian Mumosimus</span>
+    <span>Neophobe Plebeian Mumosimus</span>
   </div>
-  <ul class="top-links"><!--Having trouble vertically aligning the nav bar contents-->
+  
+  <ul class="top-links">
     <li><a href="#">npm Enterprise</a></li>
     <li><a href="#">features</a></li>
     <li><a href="#">pricing</a></li>
     <li><a href="#">documentation</a></li>
     <li><a href="#">support</a></li>
   </ul>
+
   <div class="clearfix"></div>
+
 </nav>
 
 <!-- HEADER -->
-<section class="header"> <!--Having trouble positioning things- tried a bunch of was but no luck (search bar and content) -->
-   <div>
-    <ul class="search-bar">
-      <li><img src="C:\Users\David\Ironhack\code\prework\lab-html-module-exercise-master\starter-code\images\npm-logo.png"></li>
-      <li><input type="text" placeholder="find packages"></li>
-      <li><a href="#">sign up or log in</a></li>
-      <li><img src="C:\Users\David\Ironhack\code\prework\lab-html-module-exercise-master\starter-code\images\bear-logo.png"></li>
-    </ul>
+<section class="header"> <!--Having trouble positioning the search bar correctly) -->
+  
+  <div class="search-bar">
+    <a><img height= "40px" src="C:\Users\David\Ironhack\code\prework\lab-html-module-exercise-master\starter-code\images\npm-logo.png"></a>
+    <a><input type="text" placeholder="find packages"></a>
+    <a href="#">sign up or log in</a>
+    <a><img height="40px" src="C:\Users\David\Ironhack\code\prework\lab-html-module-exercise-master\starter-code\images\bear-logo.png"></a>
   </div>
+
+  <div class="clearfix"></div>
  
-  <div class="content">
-   
+  <div class="content header-content">
     <h1>Build amazing things</h1>
     <p>npm is the package manager for JavaScript and the world's largest<br> software registry. Discover packages of reusable code - and<br> assemble them in powerful new ways.
     </p>
-    <!-- <a href="#">Sign up for npm</a> -->
     <button type="button" class="header-btn" >Sign up for npm</button>
-    
-    <!-- <img class="header-img" height="400px" src="C:\Users\David\Ironhack\code\prework\lab-html-module-exercise-master\starter-code\images\city-scape.svg"> -->
-   
-    <!-- <button name="button">Sign up for npm</button> -->
-   
   </div>
+  
   <div class="clearfix"></div>
   
 </section>
 
 <!-- SECTION 1 -->
-<section class="section-1"> <!--Positioning content again-->
+<section class="section-1">
   
   <div class="content section-1-content">
     
-    <img class="section-1-img" height="200px" src="C:\Users\David\Ironhack\code\prework\lab-html-module-exercise-master\starter-code\images\collaboration.svg">
-
     <div>
-      <h2>npm Orgs is powerful<br> collaboration - for free</h2>
+      <img class="section-1-img" src="C:\Users\David\Ironhack\code\prework\lab-html-module-exercise-master\starter-code\images\collaboration.svg">
     </div>
 
     <div>
-      <ul>
+      <h2>npm Orgs is powerful<br> collaboration - for free</h2>
+      
+      <ul class="section-1-ul">
         <li>Encourage code discoveru and re-use within teams</li>
         <li>Publish and control access to  your own namespace</li>
         <li>Manage public and private code with the same workflow</li>
       </ul>
+
       <button type="button" class="section-1-btn" >Sign up for Orgs</button>
       <p>or, Learn more about Orgs</p> <!--Is this suppose to be a link?-->
     </div>
 
   </div>
+
 </section>
 
 <!-- SECTION 2 --> 
-<section> <!--Positioning content once again - make it work in a way i knew how. Not sure this is the best way-->
+<section>
+
   <div class="section-2">
     
     <div class="section-2-content">
-      <h2>Waht is npm?</h2>
+      <h2>What is npm?</h2>
       <p>
         Use npm to install, share, and distribute code; <br>manage dependencies in your projects; and<br> share & recieve feedback with others.
       </p>
@@ -91,12 +93,12 @@
     </div>
 
   </div>
-    
-  
+
 </section>
 
 <!-- SECTION 3 --> 
-<section class="section-3"> <!--Positioning content. Made it work by using grid-column. I don't think this is how you guys want it done.-->
+<section class="section-3">
+  
   <div>
     <h2> What can you make with 475,000 building blocks?</h2>
     <p>The npm registry hosts almost half a million packages of free, reusable code - the largest software registry in the world.</p>
@@ -129,6 +131,8 @@
     </div>
     
   </div>
+
 </section>
+
 </body>
 </html>

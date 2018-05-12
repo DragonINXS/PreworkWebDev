@@ -21,6 +21,11 @@ nav a {
     float: left;
 }
 
+.heart {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .top-links {
     display: inline;
     float: right;
@@ -35,7 +40,6 @@ nav a {
 }
 
 /* HEADER */
-
 .header {
     background: rgb(32, 101, 136);
     color: white;
@@ -44,7 +48,12 @@ nav a {
 
 .search-bar {
    display: inline;
+   list-style-type: none;
    background-color: rgb(31, 82, 111);
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   box-sizing: content-box;
 }
 
 .search-bar a {
@@ -56,8 +65,21 @@ nav a {
     color: white;
 }
 
+.search-bar input {
+    background-color: rgb(31, 82, 111);
+    border: 1px solid rgb(135, 145, 156);
+    padding: 10px;
+    width: 100%;
+}
+
 .content {
     margin: auto;
+}
+
+.header-content {
+    width: 60%;
+    padding: 70px 20px;
+    line-height: 1.4;
 }
 
 .header-btn {
@@ -68,22 +90,29 @@ nav a {
     border-radius: 20px;
 }
 
-.header-img {
-    float: right;
-    width: 100%;
-    
-}
-
 .clearfix {
     clear: both;
 }
 
 /* SECTION 1 */
-
 .section-1 {
     color: white;
     background-color: rgb(39, 53, 71);
     padding: 5%;
+}
+
+.section-1-content {
+    width: 66.66%;
+}
+
+.section-1-ul {
+    line-height: 2.0;
+}
+
+.section-1-img {
+    float: left;
+    width: 50%;
+    padding-right: 30px;
 }
 
 .section-1-btn {
@@ -92,22 +121,6 @@ nav a {
     border: none;
     padding: 10px 20px;
     border-radius: 20px;
-}
-
-.section-1-content {
-    position: relative;
-    
-}
-
-/* .section {
-    width: 100%;
-    padding: 10%;
-    margin: auto;
-} */
-
-.section-1-img {
-    float: left;
-    padding-right: 50px;
 }
 
 /* SECTION 2 */
@@ -119,8 +132,8 @@ nav a {
 }
 
 .section-2-content {
-    position: relative;
-    padding: 5% 10%; /*Is this how I'm suppose to do this?*/
+    padding: 8% 20%;
+    line-height: 1.4;
 }
 
 .section-2-btn {
@@ -131,24 +144,23 @@ nav a {
     border-radius: 20px;
 }
 
-
 /* SECTION 3 */
-
 .section-3 {
     background-color: white;
     text-align: center;
-
+    padding: 50px;
 }
 
-.section-3-hr {
+.section-3 h2 h3 {
     color: rgb(83, 88, 98);
 }
 
-a { /*sould it be every link?*/
+.section-3 a { /*sould it be every link?*/
     color: rgb(208, 74, 73);
+    text-decoration: none;
 }
 
-.section-3-content {
+.section-3 p {
     color: rgb(135, 145, 156);
 }
 
@@ -156,7 +168,8 @@ a { /*sould it be every link?*/
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 70px;
-    padding: 10px 100px;
+    padding: 10px 20%;
+    line-height: 1.4;
 }
 
 .one {
